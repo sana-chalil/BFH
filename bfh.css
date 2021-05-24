@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+.container{
+    display: flex;
+    
+}
+
+.home .para{
+    position: absolute;
+    top: 20%;
+    letter-spacing: 1px;
+    left: auto;
+    z-index: 10;
+    left: 57%;
+    
+}
+.home .para h1{
+    font-size: 70px;
+    color: black;
+    margin: 5px 0px;
+    font-weight: 800;
+    font-family: 'Abril Fatface', cursive;
+   
+}
+.home .para h2{
+    left: 57%;
+   margin-top: 10%;
+    font-size: 35px;
+    color: black;
+  margin-left: 50px;
+    font-weight: 400;
+    font-family: 'Mitr', sans-serif;
+}
+.inp-btn{
+    width: 400px;
+    background: rgb(37, 158, 238);
+    font-size: 20px;
+    height: 50px;
+    color: white;
+    font-family: inherit;
+    font-weight: 400px;
+}
+.inp-btn:hover{
+    background: rgb(6, 131, 247);
+    transition: 0.3s;
+}
+input{
+    display: block;
+    margin: 0 auto;
+    margin-top: 90%;
+    border-radius: 30px;
+    border: 0px solid rgb(6, 131, 247);
+   margin-left: 5px;
+    
+   
+}
+.inp-name{
+    font-weight: 400px;
+    width: 400px;
+    background: white;
+    font-size: 20px;
+    height: 50px;
+    margin-top: 10%;
+    border: 1px solid rgb(6, 131, 247);
+    text-align: center;
+    
+    color: violet;
+    
+   
+}
+.inp-name:hover{
+    background: rgb(222, 226, 235);
+    transition: 0.3s;
+}
+.home .logo{
+    margin-top: 30px;
+    margin-left: 30px;
+  
+}
+.black h1{
+    text-align: center;
+   
+}
+.black h1{
+    font-family: cursive;
+    padding-top: 20px;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+     font-size: 4em;
+
+ }
+ h1 span{
+    
+     margin: 0;
+     padding: 0;
+     animation: animate 2s linear infinite;
+ }
+ h1 span:nth-child(1)
+ {
+     animation-delay: 0s;
+ }
+ h1 span:nth-child(2)
+ {
+     animation-delay: 0.25s;
+ }
+ h1 span:nth-child(3)
+ {
+     animation-delay: 0.5s;
+ }
+ h1 span:nth-child(4)
+ {
+     animation-delay: 0.75s;
+ }
+ h1 span:nth-child(5)
+ {
+     animation-delay: 1s;
+ }
+ h1 span:nth-child(6)
+ {
+     animation-delay: 1.25s;
+ }
+ h1 span:nth-child(7)
+ {
+     animation-delay: 1.5s;
+ }
+ h1 span:nth-child(8)
+ {
+     animation-delay: 1.75s;
+ }
+ @keyframes animate{
+     0%,100%
+     {
+         color: #fff;
+         filter: blur(2px);
+         text-shadow: 0 0 10px #00b3ff,
+                      0 0 20px #00b3ff,
+                      0 0 40px #00b3ff,
+                      0 0 80px #00b3ff,
+                      0 0 120px #00b3ff,
+                      0 0 200px #00b3ff,
+                      0 0 300px #00b3ff,
+                      0 0 400px #00b3ff;
+ 
+      }
+     5%,95%
+     {
+         color: #111;
+         filter: blur(0px);
+         text-shadow: 0 0 10px none;
+     }
+ }
+
+.par{
+    text-align: center;
+    font-size: smaller;
+    font-family: 'Mate SC', serif;
+    color: grey;
+}
+ 
